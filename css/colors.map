@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../scss/colors.css",
+	"sources": [
+		"../scss/colors.scss"
+	],
+	"sourcesContent": [
+		"$backgrColor1: #dfebed;"
+	],
+	"mappings": "",
+	"names": []
+}

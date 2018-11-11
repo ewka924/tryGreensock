@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../scss/typography.css",
+	"sources": [
+		"../scss/typography.scss"
+	],
+	"sourcesContent": [
+		"h1{\r\n\tfont-size:10vh;\r\n}"
+	],
+	"mappings": ";AAAA,AAAA,EAAE,CAAA;EACD,SAAS,EAAC,IAAK;CACf",
+	"names": []
+}

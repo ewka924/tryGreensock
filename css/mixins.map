@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../scss/mixins.css",
+	"sources": [
+		"../scss/mixins.scss"
+	],
+	"sourcesContent": [
+		"@mixin navySVG {\r\n\twidth:0;\r\n\tposition:relative;\r\n\ttop:50%;\r\n\r\n}\r\n\r\n@mixin link{\r\n\ttext-decoration: underline;\r\n\t\tcolor:#000;\r\n\t\theight:auto;\r\n\t\tdisplay:block;\r\n\t\tmargin-left:2%;\r\n\t\t\r\n}\r\n\r\n@mixin background{\r\n\t\r\n position: absolute;\r\n  box-sizing: border-box;\r\n  width:100%;\r\n  height: 0;\r\n  bottom: 0;\r\n  display:flex;\r\n  align-items:center;\r\n  justify-content: center;\r\n}"
+	],
+	"mappings": "",
+	"names": []
+}

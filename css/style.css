@@ -1,0 +1,164 @@
+/* line 1, C:/Users/ewelina/Desktop/anim/scss/typography.scss */
+h1 {
+  font-size: 10vh;
+}
+
+/* line 5, C:/Users/ewelina/Desktop/anim/scss/style.scss */
+.side {
+  padding: 0;
+}
+
+/* line 9, C:/Users/ewelina/Desktop/anim/scss/style.scss */
+.sideNav {
+  height: 100vh;
+  min-width: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  z-index: 50;
+}
+
+/* line 21, C:/Users/ewelina/Desktop/anim/scss/style.scss */
+.sideNav .sideNavContainer ul {
+  /*list-style-type: none;*/
+}
+
+/* line 31, C:/Users/ewelina/Desktop/anim/scss/style.scss */
+.sectionOne {
+  margin: 0;
+  height: 100vh;
+}
+
+/* line 36, C:/Users/ewelina/Desktop/anim/scss/style.scss */
+.sectionTwo {
+  margin: 0;
+  height: 100vh;
+  background-color: green;
+  visibility: hidden;
+}
+
+/* line 45, C:/Users/ewelina/Desktop/anim/scss/style.scss */
+.rightColumn {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+  background-color: transparent;
+  overflow: hidden;
+}
+
+/* line 56, C:/Users/ewelina/Desktop/anim/scss/style.scss */
+.background1 {
+  background: #dfebed;
+  position: absolute;
+  box-sizing: border-box;
+  width: 100%;
+  height: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 60, C:/Users/ewelina/Desktop/anim/scss/style.scss */
+.imageContainer {
+  height: 100%;
+  width: 50%;
+  transition: 3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 68, C:/Users/ewelina/Desktop/anim/scss/style.scss */
+.imageContainer .image {
+  position: absolute;
+  bottom: 0;
+  height: 0;
+}
+
+/* line 78, C:/Users/ewelina/Desktop/anim/scss/style.scss */
+.ctnt {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 2%;
+  z-index: 2;
+  background: none;
+}
+
+/* line 88, C:/Users/ewelina/Desktop/anim/scss/style.scss */
+.ctnt .rightItem {
+  z-index: 40;
+  float: right;
+}
+
+/* line 94, C:/Users/ewelina/Desktop/anim/scss/style.scss */
+.navItem {
+  height: 2rem;
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  z-index: 30;
+  float: left;
+}
+
+/* line 102, C:/Users/ewelina/Desktop/anim/scss/style.scss */
+.navItem .lineSVG {
+  width: 0;
+  position: relative;
+  top: 50%;
+  left: 2vh;
+}
+
+/* line 106, C:/Users/ewelina/Desktop/anim/scss/style.scss */
+.navItem a.navLink {
+  text-decoration: underline;
+  color: #000;
+  height: auto;
+  display: block;
+  margin-left: 2%;
+}
+
+/* line 115, C:/Users/ewelina/Desktop/anim/scss/style.scss */
+.mainHeader {
+  width: 50%;
+  position: relative;
+  top: 10vh;
+  left: -50%;
+}
+
+/* line 122, C:/Users/ewelina/Desktop/anim/scss/style.scss */
+.socialSVG {
+  position: relative;
+  top: 70vh;
+  transform: rotate(-90deg);
+  transform-origin: top left;
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 130, C:/Users/ewelina/Desktop/anim/scss/style.scss */
+.socialSVG a.socialLink {
+  text-decoration: underline;
+  color: #000;
+  height: auto;
+  display: block;
+  margin-left: 2%;
+}
+
+/* line 134, C:/Users/ewelina/Desktop/anim/scss/style.scss */
+.socialSVG .lineSVGsocial {
+  width: 0;
+  position: relative;
+  top: 2vh;
+  margin-left: 2%;
+}
+
+/*# sourceMappingURL=../css/style.map */

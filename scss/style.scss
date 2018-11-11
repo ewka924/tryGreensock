@@ -1,0 +1,141 @@
+@import 'colors';
+@import 'mixins';
+@import 'typography';
+
+.side{
+	padding:0;
+}
+
+.sideNav{
+	height: 100vh;
+	min-width: 100%;
+	position:absolute;
+	top:0;
+	display:flex;
+	align-items:center;
+	justify-content: flex-end;
+	z-index: 50;
+	.sideNavContainer{
+
+
+		ul{
+		/*list-style-type: none;*/
+	}
+
+	}
+
+	
+}
+
+
+.sectionOne{
+	margin:0;
+	height: 100vh;
+}
+
+.sectionTwo{
+	margin:0;
+	height: 100vh;
+	background-color: green;
+	visibility: hidden;
+
+
+}
+
+.rightColumn {
+  position:absolute;
+  top:0px;
+  right:0px;
+  width:100%;
+  height:100vh;
+  z-index:1;
+  background-color: transparent;
+  overflow: hidden; 
+}
+
+.background1{
+ background: $backgrColor1;
+  @include background;
+}
+  .imageContainer{
+  	height: 100%;
+  	width:50%;
+	transition: 3s;
+	display: flex;
+	align-items:center;
+	justify-content: center;
+
+  	.image{
+		position:absolute;
+  		bottom:0;
+		height: 0;
+
+		}
+	
+  }
+
+
+.ctnt{
+	width:100%;
+	height: 100vh;
+	position:absolute;
+	top:0;
+	left:0;
+	padding:2%;
+	z-index:2;
+	background:none;
+
+	.rightItem{
+	z-index:40;
+	float:right;
+	}
+}
+
+.navItem{
+	height:2rem;
+	width:70%;
+	display:flex;
+	flex-direction:row;
+	z-index:30;
+	float:left;
+
+	.lineSVG{
+		@include navySVG;
+		left:2vh;
+	}
+	a.navLink {
+		@include link;
+	}
+
+
+}
+
+
+
+.mainHeader{
+	width:50%;
+	position:relative;
+	top:10vh;
+	left:-50%;
+}
+
+.socialSVG{
+	position:relative;
+	top:70vh;
+	transform:rotate(-90deg);
+	transform-origin:top left;
+	display:flex;
+	flex-direction: row;
+
+	a.socialLink{
+		@include link;
+}
+
+	.lineSVGsocial{
+		width:0;
+		position:relative;
+		top:2vh;
+		margin-left:2%;
+	}
+}
+
